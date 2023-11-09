@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 100vw;
+    background-color: #141414;
+    position: relative;
+}
+
+.navimg {
+    position: relative;
+    left: 3vw;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #e5e5e5;
+    position: relative;
+    left: 7vw;
+    width: 40vw;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #e5e5e5;
+    position: relative;
+    left: 31vw;
+    width: 20vw;
+}
+
+.searchimage {
+    position: relative;
+    left: 7px;
+}
+
+.bellimage {
+    position: relative;
+    left: -10px;
+}
+
+.userimage {
+    position: relative;
+    left: -10px;
+    top: 2px;
+}
+
+.home,
+.tvshows,
+.Movies,
+.news,
+.mylist,
+.browse,
+.children {
+    text-decoration: none;
+}
+
+/* Header */
+
+.vid {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+}
+
+.vidplay {
+    height: 80vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+#Hrithik {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.vidname,
+.play,
+.info,
+.ua {
+    z-index: 1;
+    position: absolute;
+}
+
+.vidname {
+    left: 10vh;
+    bottom: 25vh;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Young Serif', serif;
+}
+
+.play {
+    left: 5vh;
+    bottom: 20vh;
+    background-color: white;
+    color: black;
+    height: 4vh;
+    width: 13vh;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#play {
+    text-decoration: none;
+}
+
+.info {
+    left: 20vh;
+    bottom: 20vh;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+    height: 4vh;
+    width: 13vh;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#info {
+    text-decoration: none;
+}
+
+.ua {
+    right: 0vh;
+    bottom: 20vh;
+    background-color: rgba(51, 51, 51, .6);
+    ;
+    color: white;
+    height: 4vh;
+    width: 13vh;
+    border-left: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+
+/* Main */
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    height: 165vh;
+    width: 100vw;
+    position: relative;
+}
+
+.mainbox1,
+.mainbox2,
+.mainbox3,
+.mainbox4,
+.mainbox5,
+.mainbox6 {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.mb {
+    color: white;
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.names {
+    height: 21vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name1,
+.name2,
+.name3,
+.name4,
+.name5 {
+    height: 21vh;
+    width: 20vw;
+    padding: 4px 4px 4px 4px;
+}
+
+/* Footer */
+.foot {
+    background-color: black;
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot1,
+.foot2,
+.foot3 {
+
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ad,.hc,.gc,.mc,.ir,.job,.tou,.privacy,.ln,.cp,.ci,.cu{
+    text-align: left;
+}
+.servicecode{
+    position: absolute;
+    bottom:45px;
+    left: 273px;
+    border: 1px solid grey;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+.trademark{
+    position: absolute;
+    bottom:17px;
+    left: 273px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.icons{
+    width: 15vw;
+    top: 50px;
+    left: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
